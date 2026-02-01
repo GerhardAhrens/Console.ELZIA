@@ -1,0 +1,41 @@
+﻿{
+  "rules": [
+    {
+      "pattern": "\\b(traurig|deprimiert|unglücklich)\\b",
+      "priority": 100,
+      "topic": "Emotion",
+      "description": "Reagiert auf Traurigkeit",
+      "contextWeight": 4,
+      "responses": [ "Warum fühlst du dich {0}?", "Seit wann bist du {0}?", "Gibt es einen Grund, warum du dich {0} fühlst?" ],
+      "isactive": true
+    },
+    {
+      "pattern": "\\b(ganz gut|ziemlich gut)\\b",
+      "priority": 90,
+      "topic": "Emotion",
+      "contextWeight": 3,
+      "responses": [ "Warum fühlst du dich {0}?", "Seit wann ist das so, dass Du dich {0} fühlst?" ]
+    },
+    {
+      "pattern": "\\b(mutter|vater|eltern)\\b",
+      "priority": 70,
+      "topic": "Family",
+      "contextWeight": 2,
+      "responses": [ "Erzähl mir mehr über deine Familie." ]
+    },
+    {
+      "pattern": "\\b(portieren|migrieren|programmieren)\\b",
+      "priority": 50,
+      "topic": "Hobby",
+      "contextWeight": 2,
+      "responses": [ "Ist das {0} ein spannendes Thema?" ]
+    },
+    {
+      "pattern": "\\b(hallo|hi)\\b",
+      "priority": 10,
+      "topic": "None",
+      "contextWeight": 0,
+      "responses": [ "Hallo. Wie geht es dir?" ]
+    }
+  ]
+}
