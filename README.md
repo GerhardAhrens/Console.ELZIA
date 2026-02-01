@@ -105,3 +105,5 @@ while (true)
 }
 ```
 
+Trotz den eingeführten Verbesserungen, ist dieser ELIZA-Chatbot immer noch eine einfache Simulation und kann nicht die Tiefe und Nuancen eines echten menschlichen Gesprächs oder einer aktuellen KI erfassen. Dennoch bietet er einen interessanten Einblick in die frühen Entwicklungen der Künstlichen Intelligenz und der Mensch-Computer-Interaktion. Für einfache Chatbot-Aufgaben kann dieser Stand durchaus als Basis verwendet werden.
+
