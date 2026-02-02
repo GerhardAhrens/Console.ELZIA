@@ -6,7 +6,7 @@
       "topic": "Emotion",
       "description": "Reagiert auf Traurigkeit",
       "contextWeight": 4,
-      "responses": [ "Warum fühlst du dich {0}?", "Seit wann bist du {0}?", "Gibt es einen Grund, warum du dich {0} fühlst?" ],
+      "responses": [ "Warum fühlst du dich {0}?", "Seit wann bist du {0}?", "Gibt es einen Grund, warum du dich {0} fühlst?", "Seit wann ist das so, dass Du dich {0} fühlst?" ],
       "isactive": true
     },
     {
